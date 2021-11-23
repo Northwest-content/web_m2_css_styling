@@ -1,6 +1,6 @@
-**❓ Question:** 
+**❓ Question:**
 
-> Did you notice that the list is not really centered 🤔? To solve this we need to understand something called the `Box Model`, it will help us look deeper. I hope you remember how to `inspect` websites, we will need it in this section. 
+> Did you notice that the list is not really centered 🤔? To solve this we need to understand something called the `Box Model`, it will help us look deeper. I hope you remember how to `inspect` websites, we will need it in this section.
 >
 > `Box Model`:
 >
@@ -12,7 +12,7 @@
 
 > `border` is something is implemented by you as developer, we will create some in our next project 😁
 
-**01_Margin**Margin is the part that is between elements and each other: ![img](https://lh5.googleusercontent.com/9hzkRb7F4mZYDGwCbLkvNeINKtq9j63IvFyQtU2XlCcgmzIQVyWVa59hzUVF4CTM3V2qoLgoVld0M7KKLfBDn8l8_51Vuk6FfO70yitFxE_3Q16zdc1eoXlouQ1U6I0vUQT-zojb=s0)**📝 Note:** 
+**01_Margin**Margin is the part that is between elements and each other: ![img](https://lh5.googleusercontent.com/9hzkRb7F4mZYDGwCbLkvNeINKtq9j63IvFyQtU2XlCcgmzIQVyWVa59hzUVF4CTM3V2qoLgoVld0M7KKLfBDn8l8_51Vuk6FfO70yitFxE_3Q16zdc1eoXlouQ1U6I0vUQT-zojb=s0)**📝 Note:**
 
 > Most elements start with defaulted number of `margin`Lets see it in action using `inspect`: ![img](https://lh6.googleusercontent.com/u2wbbIfroaDnWZDcPSmJOJ9K0Ju4PGHagvZiJvOBe9MJJHRBuk8FWO1eurp2Rytkofh39_2y--lhojNF5GnLcY5t1u-uch5BMLdD2IRTN3hAypXJ8QjagypNT08KnNdyA5WmqxxW=s0)
 >
@@ -20,45 +20,41 @@
 
 **02_Padding**
 
-Padding is the part that is between the element and the `margin`:![img](https://lh3.googleusercontent.com/ml7qYaRIH1Le2PrMT1hLVAWzn9qJLo2tmTtOQo8Q8VGDnlUXgZqA_kKxrN07-4rjv0YYGs9Gxcvv2JAgZGy9fEvou8BERxQK6i5Gm9CYIemJx-8_5GHcbEujIsNY41_aduXzHGY1=s0)**📝 Note:** 
+Padding is the part that is between the element and the `margin`:![img](https://lh3.googleusercontent.com/ml7qYaRIH1Le2PrMT1hLVAWzn9qJLo2tmTtOQo8Q8VGDnlUXgZqA_kKxrN07-4rjv0YYGs9Gxcvv2JAgZGy9fEvou8BERxQK6i5Gm9CYIemJx-8_5GHcbEujIsNY41_aduXzHGY1=s0)**📝 Note:**
 
 > Most elements start with `padding: 0px`, little that has a value. Lets see it in action using `inspect`: ![img](https://lh6.googleusercontent.com/iWLKxfczPrbRkurOft2SmGZzeGcTj4q6FDjD9X14LGy8NaNYCcakj5X4BmMfWy6n2_1eHRtvMgPCsqSQkqBnSW6ZYj0iIe49AgEdSzdYNIdOrZ8lLudHn_v6xpfEOUG5-CTrhTcV=s0)`padding` has an green color, try to do it with other elements 😌
 
 **03_Box_Implementation**
 
-Here we will do the following: 
+Here we will do the following:
 
 - Remove the `padding` from `<ul>`
 
-- Adding `margin` between the button and the last image 
+- Adding `margin` between the button and the last image
 
-- Adding `padding` between `<li>` elements> 
+- Adding `padding` between `<li>` elements>
 
   Let's DO THIS!!!!
 
-  1. **Remove the `padding` from `<ul>`**![img](https://lh5.googleusercontent.com/xTDN1YO2_7puu1NjLA3UaeALqsRksnbA4XjvmPy8eUMNerm-ynH8Lct10BxtbGnXe-0JlDYu5DZffeyXdWFFfDldhlPJ3UHg3pm0kHM1ls3jgnRUE4ZPTIG2keqqQGcAX1_u9lM5=s0)**Code:** 
+  1. **Remove the `padding` from `<ul>`**![img](https://lh5.googleusercontent.com/xTDN1YO2_7puu1NjLA3UaeALqsRksnbA4XjvmPy8eUMNerm-ynH8Lct10BxtbGnXe-0JlDYu5DZffeyXdWFFfDldhlPJ3UHg3pm0kHM1ls3jgnRUE4ZPTIG2keqqQGcAX1_u9lM5=s0)**Code:**
 
-     ``````css
+     ```css
      ul {
-         padding: 0px;
+       padding: 0px;
      }
-     ``````
-
-     
+     ```
 
   2. **Adding `margin` between the button and the last image**
 
      ![img](https://lh4.googleusercontent.com/kpEJhEa_DJ229IoBdSpx1vQKfRXjS903OiTEP4KP75Kn9EKTQfp3jiNGtGbZkeyGDtf-Rw6ud04ybX06EuZISPTEV51h6UNDCrTayGisqUyJWJhzM0v8OJhONvnSmMVbWEXAU77y=s0)
 
-     **Code:** 
+     **Code:**
 
-     ``````css
+     ```css
      button {
-         margin: 20px;
+       margin: 20px;
      }
-     ``````
-
-     
+     ```
 
   3. **Adding `padding` between `<li>` elements**
 
@@ -66,10 +62,10 @@ Here we will do the following:
 
      **Code:**
 
-     ``````css
+     ```css
      li {
-         padding: 10px;
+       padding: 10px;
      }
-     ``````
+     ```
 
- What a nice thing to not edit each element individually, `<style>` tag saved us!!! 😍
+What a nice thing to not edit each element individually, `<style>` tag saved us!!! 😍

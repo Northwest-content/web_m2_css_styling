@@ -6,13 +6,13 @@ This my friend was the `Box Model`, we discussed and implemented `margin` and `p
 
 **01_Border_style**
 
-Styles that `border-style`provides are: 
+Styles that `border-style`provides are:
 
 - Solid
 
-- Dashed 
+- Dashed
 
-- Dotted 
+- Dotted
 
 - Hidden (The default value)
 
@@ -22,11 +22,11 @@ Styles that `border-style`provides are:
 
 ![img](https://lh6.googleusercontent.com/cE6YcKZYXO5Sudo7QzvzQiOWUhF6G0wu5rLS33K6ayldymQ3DvS-tkZRV9r9Le7UjHdnfFiH9KoRqFTQ28nXK-9WT9uwKuimCNLENQ4zI3hjPejVz8M7K1h1f926TYo-FGHMVBXo=s0)
 
-``````css
-div{
-border-style: …;
+```css
+div {
+  border-style: …;
 }
-``````
+```
 
 **02_Border_width**
 
@@ -36,21 +36,21 @@ To control the width, we just add a number.
 
 ![img](https://lh5.googleusercontent.com/IVfR2Bb-UjcAWrMRxgf-5wzq6Tt3-vypYYXtiLcXUswGqgKnWZ0siOhMjCqs1fERN7QkiLWfLxwaw8m_Z2OHP0Ihcvy4l2wpwJB5bb3zlOJRkVLpnujD_SGA9GIBF4hfxaHqxNYh=s0)
 
-``````css
-div{
-border-width: …;
+```css
+div {
+  border-width: …;
 }
-``````
+```
 
 **03_Border_radius**
 
 To be able to see this changes clearly, let's change the `border-style`
 
-``````css
-div{
-border-style: solid;
+```css
+div {
+  border-style: solid;
 }
-``````
+```
 
 **Implementation Time!**
 
@@ -60,11 +60,10 @@ Notice how the edges are smother 😍
 
 **❓ Question:**
 
-> Can border radius work without having borders? 
+> Can border radius work without having borders?
 
-**🤓 Answer:** 
+**🤓 Answer:**
 
->  YES, lets try it:
+> YES, lets try it:
 
 ![img](https://lh4.googleusercontent.com/a8n-NFuiwI12jIkSe61j8FJb677MMMQsWS3fvLC8bbC4a8wSYG79B1YRCK0ByQ0rEycOOfTBloWuwVBMf7gxtpJXX2S0ON1UZK7yw6EmIwglEmkbyNsqPQED7Aypxw9EtWY5QPwh=s0)
-

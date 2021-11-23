@@ -2,27 +2,27 @@ The last new tag we took was `<style>` and that saved us from repeated code, so 
 
 `<div>` are written this way:
 
-``````html
+```html
 <div>
-<! - - content - -> 
+  <! - - content - ->
 </div>
-``````
+```
 
-We can imagen `<div>` like having another `<body>` within the actual one, this gives us a changes to control each section on its own without interfering with each other. 
+We can imagen `<div>` like having another `<body>` within the actual one, this gives us a changes to control each section on its own without interfering with each other.
 
-**Implementation Time!!!!** 
+**Implementation Time!!!!**
 
 We will implement it to wrap each topic:
 
 ![img](https://lh3.googleusercontent.com/Qzw_oG_ftD2SYna3iLpwMNW3nvBHEXnQPfnepS99dZdECa1on9lJu6gnZ7n4cRgSwV0P6kp2Xa4-f5pgUCaw4M_fWmGP7JPAMD-YNBbMi0-wMXjvqdEHJsmUxP3yMB7pD6piwMWD=s0)
 
-I know what are you thinking, 
+I know what are you thinking,
 
 **❓ Question:**
 
 > What is the benefit of wrapping elements with `<div>`?
 
-**🤓 Answer:** 
+**🤓 Answer:**
 
 > We can control a specific area of the page like this!!!!
 
@@ -30,16 +30,16 @@ I know what are you thinking,
 
 AMAZING!!!!!!
 
-We will fix it a bit with this code: 
+We will fix it a bit with this code:
 
-``````css
- div {
-     background-color: azure;
-     text-align: center;
-     margin: 10px;
-     padding: 5px;
+```css
+div {
+  background-color: azure;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
 }
-``````
+```
 
 So we can get this result:
 
@@ -47,10 +47,9 @@ So we can get this result:
 
 **📝 Note:**
 
->  `CSS`and `HTML` are case sensitive, which is given to the languages that take everything literally. 
+> `CSS`and `HTML` are case sensitive, which is given to the languages that take everything literally.
 
 **Example:**
 
 > `<div>` is not like` <dvi>`, it will not auto correct what is already written.
 > This will be clearly shown in the next part. 👀
-
